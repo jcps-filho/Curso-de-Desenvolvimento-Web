@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="forms-style.css">
+
+    <title>Formulários</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+        <div class="page-header">
+            <h1>Formulários Bootstrap </h1>
+        </div>
+
+        <br><br>
+
+        <div class="row">
+
+            <div class="col-sm-8">
+                <h3>Cadastre-se</h3>
+                <form>
+
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" class="form-control" id="nome">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="senha">Senha</label>
+                        <input type="password" class="form-control" id="senha">
+                    </div>
+
+                    <div class="checkbox">
+                        <label for="termos">
+                            <input type="checkbox" id="termos"> Aceito os termos do serviço
+                        </label>
+                    </div>
+
+                    <div class="radio">
+                        <label for="php">
+                            <input type="radio" id="php" name="opcoes"> PHP
+                        </label>
+
+                        <label for="java">
+                              <input type="radio" id="java" name="opcoes"> Java
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-default">Cadastre-se</button>
+
+                </form>
+            </div>
+
+            <div class="col-sm-4">
+            
+                <h3>Logar</h3>
+
+                <div class="form-group">
+                    <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+                </div>
+
+                <div class="form-group">
+                    <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
+                </div>
+
+                <button class="btn btn-primary" type="submit">Acessar</button>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

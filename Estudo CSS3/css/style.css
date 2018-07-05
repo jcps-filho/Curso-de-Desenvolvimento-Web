@@ -1,0 +1,15 @@
+#box {
+    width: 400px;  
+    height: 400px;
+    margin: 50px auto;
+    padding: 8px;
+    background: #009670;
+    box-shadow: 10px 10px 20px black;
+}
+
+#box h1 {
+    color: #ffffff;
+    font-size: 60px;
+    /* text-shadow: 5px 7px 10px black; */
+    text-shadow: 4px 4px rgba(0,0,0,0.5);
+}
