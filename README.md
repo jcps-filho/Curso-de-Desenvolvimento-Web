@@ -5,12 +5,12 @@ Conteúdo estudado no [Curso completo de Desenvolvimento Web](https://www.udemy.
 ###### Módulos:
 
 ```
-<s> HTML </s>
-<s> CSS </s>
-<s> CSS Intermediário </s>
-<s> HTML5 </s>
-<s> CSS3 </s>
-<s> Bootstrap </s>
+HTML
+CSS 
+CSS Intermediário 
+HTML5 
+CSS3 
+Bootstrap 
 JavaScript
 JQuery
 Iniciando com servidor Apache, PHP e MySQL
