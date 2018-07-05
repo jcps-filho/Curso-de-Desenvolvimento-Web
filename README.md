@@ -5,12 +5,12 @@ Conteúdo estudado no [Curso completo de Desenvolvimento Web](https://www.udemy.
 ###### Módulos:
 
 ```
-~~HTML~~
-~~CSS~~
-~~CSS Intermediário~~
-~~HTML5~~
-~~CSS3~~
-~~Bootstrap~~
+~~ HTML ~~
+~~ CSS ~~
+~~ CSS Intermediário ~~
+~~ HTML5 ~~
+~~ CSS3 ~~
+~~ Bootstrap ~~
 JavaScript
 JQuery
 Iniciando com servidor Apache, PHP e MySQL
