@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Música para todos - Spotify</title>
+    <link rel="icon" href="imagens/favicon.png">
 
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,13 +20,54 @@
     <![endif]-->
   </head>
   <body>
-
     
+    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-transparente">
+      <div class="container">
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+          <a href="index.html" class="navbar-brand">
+            <span class="img-logo">Spotify</span>
+          </a>
+          
+          <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#barra-navegacao" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!-- navbar-->
+        <div class="collapse navbar-collapse" id="barra-navegacao">
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Premium</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Ajuda</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Baixar</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Inscrever-se</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Entrar</a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div> <!-- Container-->
+    </nav> <!-- /nav -->
+
+
+
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
