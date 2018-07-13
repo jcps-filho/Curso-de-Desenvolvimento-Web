@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+
+		<title>Ballon Pop</title>
+		<link rel="icon" href="imagens/favicon.ico">
+
+		<script type="text/javascript">
+			function iniciaJogo(){
+    			//Recebe a dificuldade definida pelo usuário
+    			var dificuldade = document.getElementById('dificuldade').value;
+
+    			//Para essa dificuldade pela URL
+				window.location.href = 'jogo.html?'+dificuldade;
+			}
+		</script>
+
+	</head>
+
+	<body>
+
+		<div>
+			<p><strong>Nível: </strong>
+				<select id="dificuldade">
+					<option value="1">Fácil</option>
+					<option value="2">Médio</option>
+					<option value="3">Difícil</option>
+				</select>
+			</p> <br>
+
+			<img src="imagens/iniciar.png" onclick="iniciaJogo()">
+		</div>
+		<script src="jogo.js"></script>
+	</body>
+	
+</html>
