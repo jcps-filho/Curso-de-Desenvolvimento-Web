@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eventos - Mouse</title>
+
+    <!-- JQuery -->
+    <script src="jquery-3.3.1.min.js"></script>
+
+    <script type="text/javascript">
+        //Verificando se o DOM foi formado
+        $(document).ready(function(){
+            $('#div1').ready(function(){
+
+                //.click() - Acionado no clique do mouse
+                
+
+                //.dblclick() - Acionado no clique duplo do mouse
+                $('#div1').dblclick(function(){
+                    alert('O elemento foi clicado 2.');
+                })
+
+                //.mousedown() - Acionado no clique do mouse (soltando ou não o botão)
+
+                //.mouseover() - Acionado quando o cursor do mouse sobrepõe o elemento da página
+
+                //.mouseout() - Acionado quando o cursor do mouse sai da área de um elemento da página 
+
+            })
+        });
+
+    </script>
+
+</head>
+<body>
+    <div id="div1" style="height: 150px; width: 150px; background: grey;"></div>
+</body>
+</html>
