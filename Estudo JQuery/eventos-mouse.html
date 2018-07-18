@@ -15,11 +15,13 @@
             $('#div1').ready(function(){
 
                 //.click() - Acionado no clique do mouse
-                
+                $('#div1').click(function(){
+                    alert('O elemento foi clicado.');
+                })
 
                 //.dblclick() - Acionado no clique duplo do mouse
                 $('#div1').dblclick(function(){
-                    alert('O elemento foi clicado 2.');
+                    alert('O elemento foi clicado 2 vezes.');
                 })
 
                 //.mousedown() - Acionado no clique do mouse (soltando ou não o botão)
