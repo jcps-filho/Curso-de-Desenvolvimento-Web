@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eventos - Teclado</title>
+
+    <!-- JQuery -->
+    <script src="jquery-3.3.1.min.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function() {
+            //.keydown() - Acionado no momento em que uma tecla é pressionada (soltando-a ou não).
+            $('#campo1').keyup(function(){
+                alert('Botão foi soltado');
+            })
+
+            //.keypress() - Acionado no momento em que uma tecla é pressionada (soltando-a ou não), porém não captura teclas como por exemplo alt, ctrl, esc, shift.
+
+            //.keyup() - Acionada no momento em que a tecla é liberada. 
+
+        })
+    </script>
+
+</head>
+<body>
+
+    <input id="campo1" type="text">
+    
+</body>
+</html>
