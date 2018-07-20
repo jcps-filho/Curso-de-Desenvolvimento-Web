@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eventos - Formulários</title>
+
+    <!-- JQuery -->
+    <script src="jquery-3.3.1.min.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function() {
+
+            //focus
+            //blur
+            //change
+            
+            $('#campo1').change(function(){
+                console.log('O elemento foi modificado');
+            })
+
+        })
+    </script>
+
+</head>
+<body>
+
+    <!-- <input class="campo1" type="text"> -->
+
+    <select name="" id="campo1">
+        <option value="1">Primeira opção</option>
+        <option value="2">Segunda opção</option>
+    </select>
+</body>
+</html>
